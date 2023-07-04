@@ -14,7 +14,7 @@ const RigthNav = () => {
     <div>
       <div>
         {" "}
-        <h4>Login With</h4>
+        <h4 className="mt-4">Login With</h4>
         <Button variant="outline-primary" className="mb-3">
           {" "}
           <FaGoogle /> Login With Google
@@ -24,7 +24,7 @@ const RigthNav = () => {
         </Button>
       </div>
       <div>
-        <h4>Find Us On</h4>
+        <h4 className="mt-4">Find Us On</h4>
         <ListGroup>
           <ListGroup.Item disabled>
             {" "}
